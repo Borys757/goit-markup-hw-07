@@ -36,7 +36,7 @@
   margin-bottom: 0px;
 }
 .section.feathure .section-title {
-  color: var(--color-of-main-text);
+  color: $colorofmaintext;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -47,7 +47,7 @@
 .section.feathure p {
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--white-color);
+  color: $white-color;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;

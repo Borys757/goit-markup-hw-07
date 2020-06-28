@@ -1,8 +1,8 @@
 .order-service {
   position: relative;
   padding: 10px 32px;
-  background-color: var(--akcent);
-  color: var(--white-color);
+  background-color: $akcent;
+  color: $white-color;
   position: relative;
 }
 .icon-cross {
@@ -42,7 +42,7 @@
   width: 528px;
   height: 581px;
 
-  background-color: var(--white-color);
+  background-color: $white-color;
   border-radius: 4px;
 }
 form {
@@ -76,7 +76,7 @@ form {
 }
 .form-checkbox a {
   margin-left: 5px;
-  color: var(--akcent);
+  color: $akcent;
 }
 .form-check {
   -webkit-appearance: none;
@@ -104,7 +104,7 @@ form {
 .modal b {
   display: block;
   margin-right: auto;
-  color: var(--color-of-main-text);
+  color: $colorofmaintext;
   text-transform: lowercase;
   margin-bottom: 30px;
   font-size: 20px;
@@ -123,14 +123,14 @@ form {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--white-color);
+  background-color: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
 }
 .close-button:hover,
 .close-button:focus {
-  fill: var(--akcent);
-  background-color: var(--white-color);
+  fill: $akcent;
+  background-color: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .form-name {
@@ -155,7 +155,7 @@ form {
   font-size: 14px;
 }
 .form-name:focus + .form-lable {
-  color: var(--akcent);
+  color: $akcent;
   font-size: 12px;
 }
 
@@ -171,7 +171,7 @@ form {
   transform: translateY(-50%);
 }
 .form-name:focus ~ .icon-fname {
-  fill: var(--akcent);
+  fill: $akcent;
 }
 
 .form-name:hover,
@@ -179,16 +179,13 @@ form {
   border: 1px solid #2196f3;
 }
 
-/*.form-name:placeholder-shown {
-  background-color: var(--white-color);
-}*/
 .second-input {
   position: relative;
   margin-bottom: 28px;
 }
 
 .form-name:focus ~ .icon-fphone {
-  fill: var(--akcent);
+  fill: $akcent;
 }
 .third-input {
   position: relative;
@@ -206,7 +203,7 @@ form {
 }
 .textarea:hover,
 .textarea:focus {
-  border: 1px solid var(--akcent);
+  border: 1px solid $akcent;
 }
 .form-check {
   display: flex;
@@ -215,8 +212,8 @@ form {
 }
 .sent-resalt {
   margin-top: 30px;
-  background-color: var(--akcent);
-  color: var(--white-color);
+  background-color: $akcent;
+  color: $white-color;
   outline: none;
   font-size: 16px;
   line-height: 1.87px;

@@ -3,41 +3,42 @@ address {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-  color: var(--footer-text);
+  color: $footer-text;
 }
 address .address-first {
   display: inline-block;
   margin-bottom: 9px;
-  color: var(--white-color);
+  color: $footer-text;
 }
 address .address-second {
   display: inline-block;
   margin-bottom: 9px;
-  color: var(--footer-text);
+  color: $footer-text;
 }
 address .address-seconds {
   display: inline-block;
 
-  color: var(--footer-text);
+  color: $footer-text;
 }
 div b {
   font-size: 14px;
   line-height: 1.14;
-  color: var(--white-color);
+  color: $white-color;
   text-transform: uppercase;
 }
+
 .goit {
   display: block;
   text-align: center;
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
-  color: var(--footer-text);
+  color: $footer-text;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 18px;
-  /*padding-bottom: 21px;*/
 }
+
 .main-name {
   font-weight: 900;
   font-size: 44px;
@@ -52,7 +53,7 @@ div b {
 }
 
 footer {
-  background-color: var(--background-footer);
+  background-color: $background-footer;
   padding-top: 56px;
   padding-bottom: 21px;
 }
@@ -99,10 +100,10 @@ footer {
 }
 .icon-pic:hover,
 .icon-pic:focus {
-  background-color: var(--akcent);
+  background-color: $akcent;
 }
 .footer-icon {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 
 .subscribe-place form {
@@ -112,11 +113,12 @@ footer {
 }
 .subscribe-place button {
   display: inline-flex;
+  align-items: center;
   margin-left: 12px;
   min-width: 200px;
   min-height: 50px;
-  background: #2196f3;
-  color: var(--white-color);
+  background: $akcent;
+  color: $white-color;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
@@ -141,17 +143,17 @@ footer {
 .subscribe {
   display: inline-flex;
   width: 358px;
-  background-color: var(--background-footer);
+  background-color: $background-footer;
   padding-top: 15px;
   padding-left: 16px;
   padding-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  color: rgba(255, 255, 255, 0.6);
+  color: $footer-text;
   outline: none;
 }
 
 .subscribe:hover,
 .subscribe:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid $akcent;
 }

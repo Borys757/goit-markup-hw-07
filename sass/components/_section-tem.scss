@@ -1,5 +1,5 @@
 .section.team {
-  background-color: var(--second-color-background);
+  background-color: $second-color-background;
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -16,7 +16,7 @@
 }
 .team-title .item {
   min-width: 270px;
-  background-color: var(--white-color);
+  background-color: $white-color;
   border-radius: 4px;
   padding-bottom: 24px;
 }
@@ -36,7 +36,7 @@
   line-height: 1.16;
   margin-bottom: 50px;
   margin-top: 0px;
-  color: var(--color-of-main-text);
+  color: $colorofmaintext;
 }
 .social {
   display: inline-flex;
@@ -52,60 +52,60 @@
 }
 .social:hover,
 .social:focus {
-  background-color: var(--akcent);
+  background-color: $akcent;
   border-radius: 50%;
 }
 .instagram {
-  fill: var(--items-color);
+  fill: $items-color;
 
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social:hover > .instagram {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .social:focus > .instagram {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .twitter {
-  fill: var(--items-color);
+  fill: $items-color;
 
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social:hover > .twitter {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .social:focus > .twitter {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .facebook {
-  fill: var(--items-color);
+  fill: $items-color;
 
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social:hover > .facebook {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .social:focus > .facebook {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .linkedin {
-  fill: var(--items-color);
+  fill: $items-color;
 
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social:hover > .linkedin {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .social:focus > .linkedin {
-  fill: var(--white-color);
+  fill: $white-color;
 }
 .logotips {
   display: flex;
@@ -119,7 +119,7 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--color-of-main-text);
+  color: $colorofmaintext;
   margin-bottom: 10px;
   margin-top: 0px;
 }

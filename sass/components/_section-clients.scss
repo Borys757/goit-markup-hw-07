@@ -2,7 +2,7 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  color: var(--color-of-main-text);
+  color: $colorofmaintext;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -40,12 +40,12 @@
   border-radius: 4px;
 }
 .clients {
-  fill: var(--items-color);
+  fill: $items-color;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients:hover,
 .clients:focus {
-  fill: var(--akcent);
+  fill: $akcent;
 }

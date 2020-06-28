@@ -1,6 +1,6 @@
 .buttom.primary {
-  color: var(--white-color);
-  background-color: var(--akcent);
+  color: $white-color;
+  background-color: $akcent;
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 16px;
@@ -24,8 +24,8 @@
 }
 .buttom.primarys {
   display: inline-block;
-  color: var(--white-color);
-  background-color: var(--akcent);
+  color: $white-color;
+  background-color: $akcent;
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 16px;
@@ -38,8 +38,8 @@
 
 button:hover,
 button:focus {
-  color: var(--white-color);
-  background-color: var(--akcent);
+  color: $white-color;
+  background-color: $akcent;
 }
 
 .buttom-secondary {
@@ -48,16 +48,16 @@ button:focus {
   font-size: 16px;
   line-height: 1.87px;
   letter-spacing: 0.06em;
-  color: var(--white-color);
-  background-color: var(--akcent);
+  color: $white-color;
+  background-color: $akcent;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
 }
 .buttom-secondary:hover,
 .buttom-secondary:focus {
-  color: var(--akcent);
-  background-color: var(--white-color);
+  color: $akcent;
+  background-color: $white-color;
 }
 /*Portfolio button in the main*/
 button {

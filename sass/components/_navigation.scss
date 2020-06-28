@@ -1,8 +1,7 @@
 .site-nav a {
-  color: var(--color-of-main-text);
+  color: $colorofmaintext;
   display: block;
   padding-top: 32px;
-  /*padding-bottom: 32px;*/
 
   transition-property: color;
   transition-duration: 250ms;
@@ -23,7 +22,7 @@ nav {
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
-  color: var(--akcent);
+  color: $akcent;
   display: flex;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -33,13 +32,13 @@ nav {
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: var(--akcent);
+  color: $akcent;
 }
 .link.portfolio {
-  color: var(--akcent);
+  color: $akcent;
 }
 .link.studio {
-  color: var(--akcent);
+  color: $akcent;
 }
 .link.portfolio::after {
   display: block;
@@ -60,7 +59,7 @@ nav {
   background-image: url(../images/hover.svg);
 }
 .connection a {
-  color: var(--color-of-second-text);
+  color: $color-of-second-text;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -68,7 +67,7 @@ nav {
 }
 .connection a:hover,
 .connection a:focus {
-  color: var(--akcent);
+  color: $akcent;
 }
 .connection {
   display: flex;
@@ -86,11 +85,8 @@ nav {
   margin-right: 10px;
   min-height: 13px;
   min-width: 16px;
-  /*content: "";
-  background-image: url(../images/envelope.svg);
-  background-repeat: no-repeat;
-  background-size: contain;*/
 }
+
 .mail {
   display: inline-flex;
   justify-content: center;
@@ -101,23 +97,23 @@ nav {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .envelope {
-  fill: var(--color-of-second-text);
+  fill: $color-of-second-text;
   height: 12px;
   width: 16px;
   margin-right: 10px;
 }
 .mail:hover,
 .mail:focus {
-  color: var(--akcent);
+  color: $akcent;
 }
 .mail:hover > .envelope {
-  fill: var(--akcent);
+  fill: $akcent;
 }
 .mail:focus > .envelope {
-  fill: var(--akcent);
+  fill: $akcent;
 }
 .smartphone {
-  fill: var(--color-of-second-text);
+  fill: $color-of-second-text;
   height: 15px;
   width: 10px;
   margin-right: 10px;
@@ -134,23 +130,11 @@ nav {
 }
 .phone:hover,
 .phone:focus {
-  color: var(--akcent);
+  color: $akcent;
 }
 .phone:hover > .smartphone {
-  fill: var(--akcent);
+  fill: $akcent;
 }
 .phone:focus > .smartphone {
-  fill: var(--akcent);
+  fill: $akcent;
 }
-/*.phone::before {
-  display: inline-flex;
-
-  margin-right: 10px;
-  min-height: 15px;
-  min-width: 10px;
-  content: "";
-  background-image: url(../images/phone.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}*/
-/* main part */
