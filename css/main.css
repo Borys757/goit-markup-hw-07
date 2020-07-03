@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -160,7 +161,7 @@ form {
   color: #757575;
 }
 
-.modal a {
+/*.modal a {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -173,7 +174,22 @@ form {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
+*/
+/*.modal {
+  a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.71%;
+    letter-spacing: 0.03em;
+    margin-left: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+*/
 .form-checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
