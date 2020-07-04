@@ -4,21 +4,22 @@ address {
   line-height: 1.71;
   font-style: normal;
   color: $footer-text;
-}
-address .address-first {
-  display: inline-block;
-  margin-bottom: 9px;
-  color: $white-color;
-}
-address .address-second {
-  display: inline-block;
-  margin-bottom: 9px;
-  color: $footer-text;
-}
-address .address-seconds {
-  display: inline-block;
 
-  color: $footer-text;
+  .address-first {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: $white-color;
+  }
+  .address-second {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: $footer-text;
+  }
+  .address-seconds {
+    display: inline-block;
+
+    color: $footer-text;
+  }
 }
 div b {
   font-size: 14px;
@@ -81,10 +82,10 @@ footer {
 
 .connect {
   margin-left: 69px;
-}
-.connect b {
-  display: inline-block;
-  margin-bottom: 21px;
+  b {
+    display: inline-block;
+    margin-bottom: 21px;
+  }
 }
 .icon-pic {
   display: inline-flex;
@@ -98,10 +99,11 @@ footer {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-pic:hover,
-.icon-pic:focus {
-  background-color: $akcent;
+
+  &:hover,
+  &:focus {
+    background-color: $akcent;
+  }
 }
 .footer-icon {
   fill: $white-color;
@@ -135,12 +137,11 @@ footer {
 }
 .sending {
   margin-left: 94px;
+  b {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
 }
-.sending b {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
 .subscribe {
   display: inline-flex;
   width: 358px;
@@ -152,9 +153,9 @@ footer {
   border-radius: 4px;
   color: $footer-text;
   outline: none;
-}
 
-.subscribe:hover,
-.subscribe:focus {
-  border: 1px solid $akcent;
+  &:hover,
+  &:focus {
+    border: 1px solid $akcent;
+  }
 }

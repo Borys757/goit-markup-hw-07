@@ -11,13 +11,14 @@
   padding-bottom: 94px;
 
   margin-bottom: 0px;
+  .item {
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
 }
-.section.clients .item {
-  display: flex;
-  padding-left: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
+
 .item .item-box + .item-box {
   margin-left: 30px;
 }
@@ -25,27 +26,29 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #afb1b8;
+  border: 1px solid $items-color;
   border-radius: 4px;
   width: 170px;
   height: 90px;
 
   transition-property: border-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $cubic;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $akcent;
+    border-radius: 4px;
+  }
 }
-.item .icon:hover,
-.item .icon:focus {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
+
 .clients {
   fill: $items-color;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients:hover,
-.clients:focus {
-  fill: $akcent;
+  transition-timing-function: $cubic;
+  &:hover,
+  &:focus {
+    fill: $akcent;
+  }
 }

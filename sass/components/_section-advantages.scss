@@ -13,10 +13,10 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
-}
-.advantages-title p {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .advantages-title .items::before {
@@ -53,15 +53,16 @@
 footer {
   letter-spacing: 0.03em;
 }
-.section.advantages p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
+
 .section.advantages {
   padding-top: 94px;
   margin-bottom: 0px;
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
 }
 .section.advantages .container {
   padding-bottom: 94px;

@@ -14,9 +14,9 @@
   padding: 0px;
   margin: 0px;
   position: relative;
-}
-.feathure-title img {
+ img {
   display: block;
+  }
 }
 
 .feathure-title p {
@@ -34,17 +34,17 @@
   padding-top: 94px;
   padding-bottom: 94px;
   margin-bottom: 0px;
-}
-.section.feathure .section-title {
+
+    .section-title {
   color: $colorofmaintext;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
-
-.section.feathure p {
+  }
+  
+  p {
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
   color: $white-color;
@@ -56,4 +56,7 @@
   padding-bottom: 27px;
   margin-top: 0px;
   margin-bottom: 0px;
+  }
 }
+
+

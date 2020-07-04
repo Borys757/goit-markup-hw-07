@@ -59,46 +59,18 @@ form {
 
   color: $color-of-second-text;
 }
-/*.modal a {
-  text-decoration: underline;
-  cursor: pointer;
-}
 
-.modal p {
-  font-size: 14px;
-  line-height: 1.71%;
-  letter-spacing: 0.03em;
-  margin-left: 7px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-*/
-/*.modal {
-  a {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  p {
-    font-size: 14px;
-    line-height: 1.71%;
-    letter-spacing: 0.03em;
-    margin-left: 7px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-}
-*/
 .form-checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
 
   margin-top: 20px;
-}
 
-.form-checkbox a {
-  margin-left: 5px;
-  color: $akcent;
+  a {
+    margin-left: 5px;
+    color: $akcent;
+  }
 }
 
 .form-check {
@@ -154,13 +126,13 @@ form {
   background-color: $white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: none;
-}
 
-.close-button:hover,
-.close-button:focus {
-  fill: $akcent;
-  background-color: $white-color;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  &:hover,
+  &:focus {
+    fill: $akcent;
+    background-color: $white-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
 }
 
 .form-name {
@@ -237,11 +209,11 @@ form {
   border-radius: 4px;
   resize: none;
   outline: none;
-}
 
-.textarea:hover,
-.textarea:focus {
-  border: 1px solid $akcent;
+  &:hover,
+  &:focus {
+    border: 1px solid $akcent;
+  }
 }
 
 .form-check {

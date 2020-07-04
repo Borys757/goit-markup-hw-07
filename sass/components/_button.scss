@@ -1,64 +1,9 @@
-.buttom.primary {
-  color: $white-color;
-  background-color: $akcent;
-  letter-spacing: 0.06em;
-  font-weight: 900;
-  font-size: 16px;
-  text-align: center;
-  line-height: 1.87;
-  border-radius: 4px;
-  padding: 10px 8px 10px 29px;
-  display: inline-flex;
-  width: 200px;
-  align-items: center;
-  margin-left: 12px;
-}
-.buttom.primary::after {
-  content: "";
-  display: inline-block;
-  background-image: url(../images/send.svg);
-  height: 24px;
-  width: 24px;
-  margin-left: 10px;
-  background-position: center;
-}
-.buttom.primarys {
-  display: inline-block;
-  color: $white-color;
-  background-color: $akcent;
-  letter-spacing: 0.06em;
-  font-weight: 900;
-  font-size: 16px;
-  text-align: center;
-  line-height: 1.87;
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-}
-
 button:hover,
 button:focus {
   color: $white-color;
   background-color: $akcent;
 }
 
-.buttom-secondary {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 1.87px;
-  letter-spacing: 0.06em;
-  color: $white-color;
-  background-color: $akcent;
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-}
-.buttom-secondary:hover,
-.buttom-secondary:focus {
-  color: $akcent;
-  background-color: $white-color;
-}
 /*Portfolio button in the main*/
 button {
   font-family: roboto, sans-serif;
